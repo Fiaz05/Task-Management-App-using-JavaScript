@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Clear the task input
         titleTask.value = "";
 
-     //Complete button Functionality
+        //Complete button Functionality
         completeBtn.addEventListener("click", event => {
             const clickedButton = event.target;
 
