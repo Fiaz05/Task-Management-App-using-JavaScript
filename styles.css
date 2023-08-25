@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+/* Style for task items */
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background: purple;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style for task text */
+.task-text {
+    flex-grow: 1; /* Allow the text to take up available space */
+    overflow-wrap: break-word; /* Wrap the text to the next line */
+    word-wrap: break-word; /* For older browser support */
+    word-break: break-all; /* Break the words that exceed the container width */
+    margin-right: 30px;
+}
+
+.complete-btn,
+.delete-btn {
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+}
+.complete-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+}
+.completed-task{
+    flex-grow: 1; /* Allow the text to take up available space */
+    overflow-wrap: break-word; /* Wrap the text to the next line */
+    word-wrap: break-word; /* For older browser support */
+    word-break: break-all; /* Break the words that exceed the container width */
+    margin-right: 30px; 
+}
+.com-delete-btn{
+    margin-left: 15px;
+    background: #fff;
+    color: #000;
+}
+#task-title{
+    width: 250px;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+.due-date{
+    width: 110px;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
